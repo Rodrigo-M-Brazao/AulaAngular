@@ -6,9 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  nome = 'Rodrigo Milani Brazão';
+  // Propriedades (-variáveos globais)
+  nome = 'Rodrigo';
+  sobrenome = 'Milani Brazão';
   curso = 'Tecnologia em Sistemas para internet';
-  semestre = '3º Semestre';
+  semestre = 3;
   aula = 'Aplicações Interativas e Design Responsivo';
-  api = 'Angular'
+  api = 'Angular';
+  imagem = 'assets/19872714.jpg'
+
+
+  somar(valor1: number, valor2: number){
+    return valor1+valor2
+  }
 }
+

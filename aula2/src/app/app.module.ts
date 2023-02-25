@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DateComponent } from './views/date/date.component';
 import { AboutComponent } from './views/about/about.component';
+import { NameComponent } from './views/name/name.component';
+import { TextComponent } from './views/text/text.component';
+import { InterpolacaoComponent } from './views/interpolacao/interpolacao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateComponent,
-    AboutComponent
+    AboutComponent,
+    NameComponent,
+    TextComponent,
+    InterpolacaoComponent
   ],
   imports: [
     BrowserModule,
