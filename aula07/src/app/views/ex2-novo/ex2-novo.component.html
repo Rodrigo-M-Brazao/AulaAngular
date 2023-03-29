@@ -1,0 +1,6 @@
+<h1>Desafio 2</h1>
+<input type="text" [(ngModel)] = 'nome'>
+<img [src]="'assets/' + nome.toLowerCase()+ '.png'"
+*ngIf = " nome.toLowerCase() === 'luffy' ||
+          nome.toLowerCase() === 'zoro' ||
+          nome.toLowerCase() === 'sanji'" alt="">

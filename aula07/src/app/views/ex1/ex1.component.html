@@ -1,0 +1,3 @@
+<button (click)="apareceDesaparece()" *ngIf = '!visivel'> Aparecer </button>
+<button (click)="apareceDesaparece()" *ngIf = 'visivel'>Desaparecer</button>
+<div style="width: 100px; height: 100px; background-color: red; margin-top:10px;" *ngIf = 'visivel'></div>

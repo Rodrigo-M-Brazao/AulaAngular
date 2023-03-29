@@ -1,0 +1,19 @@
+<h1>Desafio 4</h1>
+Nome: <input type="text" [(ngModel)] = 'nome' style=" margin-right: 10px">
+Nome de Usuário: <input type="text" [(ngModel)] = 'usuario' style=" margin-right: 10px;">
+Plataforma:
+ <select [(ngModel)] = 'aplicativo' name="" id="">
+  <option value="WhatsApp">WhatsApp</option>
+  <option value="Discord">Discord</option>
+  <option value="Telegram">Telegram</option>
+</select><i class="fa-brands fa-telegram" *ngIf="aplicativo == 'Telegram'"></i>
+<i class="fa-brands fa-whatsapp" *ngIf="aplicativo == 'WhatsApp'"></i>
+<i class="fa-brands fa-discord" *ngIf="aplicativo == 'Discord'"></i>
+<br><br>
+<button style="margin-left: 20%; padding: 5px 40px;" (click) = 'apertaBtn()'>Botão</button>
+
+<br><br>
+<div *ngIf = 'apertou'>
+Nome: {{nome}}
+Nome de Usuário: {{usuario}}
+</div>

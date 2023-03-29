@@ -8,6 +8,7 @@ import { AboutComponent } from './views/about/about.component';
 import { NameComponent } from './views/name/name.component';
 import { TextComponent } from './views/text/text.component';
 import { InterpolacaoComponent } from './views/interpolacao/interpolacao.component';
+import { Ex3Component } from './views/ex3/ex3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InterpolacaoComponent } from './views/interpolacao/interpolacao.compone
     AboutComponent,
     NameComponent,
     TextComponent,
-    InterpolacaoComponent
+    InterpolacaoComponent,
+    Ex3Component
   ],
   imports: [
     BrowserModule,
