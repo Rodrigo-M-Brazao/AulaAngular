@@ -16,6 +16,7 @@ import { Ex3NovoComponent } from './views/ex3-novo/ex3-novo.component';
 import { Ex4NovoComponent } from './views/ex4-novo/ex4-novo.component';
 import { Ex5NovoComponent } from './views/ex5-novo/ex5-novo.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

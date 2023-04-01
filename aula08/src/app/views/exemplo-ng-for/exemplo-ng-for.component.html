@@ -1,0 +1,9 @@
+<h1>Exemplo ngFor</h1>
+<ol>
+  <li *ngFor = 'let bicho of bichos'>
+    {{bicho}}
+  </li>
+</ol>
+
+<input [(ngModel)] = "novoAnimal" type="text" >
+<button (click) = 'addBicho()'>Add</button>

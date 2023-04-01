@@ -1,0 +1,10 @@
+<h1>Ex 1</h1>
+<ol>
+  <div *ngFor="let filme of filmes let i = index" style="display:flex; align-items: center; margin: 10px auto;">
+    <li style="margin-right: 10px;">
+      {{filme}}
+    </li>
+    <img src="assets/{{filme}}.jpg" alt="" height="100px">
+  </div>
+
+</ol>
