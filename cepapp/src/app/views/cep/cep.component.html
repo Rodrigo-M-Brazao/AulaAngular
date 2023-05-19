@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)] = 'cep' placeholder="CEP">
+<button (click)="consultarCep()">Obter Endereço</button>
+<div class="content-endereco" *ngIf="endereco != undefined">
+  {{endereco.logradouro}} {{endereco.complemento}}- {{endereco.bairro}} - {{endereco.localidade}}/{{endereco.uf}} - {{endereco.cep}}
+  <!-- http://worldtimeapi.org/api/timezone -->
+</div>
